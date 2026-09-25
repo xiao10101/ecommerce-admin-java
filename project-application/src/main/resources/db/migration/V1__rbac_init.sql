@@ -55,4 +55,3 @@ CREATE TABLE sys_role_permission (
     CONSTRAINT fk_role_permission_role FOREIGN KEY (role_id) REFERENCES sys_role(id),
     CONSTRAINT fk_role_permission_permission FOREIGN KEY (permission_id) REFERENCES sys_permission(id)
 );
-
