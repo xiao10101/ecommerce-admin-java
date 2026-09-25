@@ -21,3 +21,8 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
 
+auth:
+  jwt:
+    secret: PP6ybTkXXhRdc3x8QfsC5glNaukgqO3WrZFM9W0h2AtulHwrDtY43NS+K8BXQmIi
+    ttl-minutes: 60
+
